@@ -104,3 +104,11 @@ Response:
   }
 }
 
+Future Improvements:
+Authentication & rate limiting
+Model retraining pipeline
+Frontend integration (React / Next.js)
+
+License
+This project is for educational and research purposes.
+Add a license file if you plan public or commercial use.
