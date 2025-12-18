@@ -46,7 +46,8 @@ pipeline: preprocessing + classifier
 label_encoder: class labels (e.g., phishing / legitimate)
 
 Predictions are generated using:
-predict_proba() (if supported)
+predict_proba() (if supported),
+
 fallback to predict() otherwise
 
 
@@ -54,6 +55,7 @@ fallback to predict() otherwise
 
 1️⃣ Clone the repository
 git clone https://github.com/rishab-1718/Email-Phishing-Check.git
+
 cd Email-Phishing-Check
 
  Install dependencies
