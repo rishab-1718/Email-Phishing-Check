@@ -27,14 +27,24 @@ Uvicorn
 
 📁 Project Structure
 email_phishing/
+
 │
+
 ├── server/
-│   ├── app.py                  # FastAPI application
+
+│   ├── app.py
+# FastAPI application
+
+
 │   └── email_phishing_model.joblib  # Trained ML model
+
 │
 ├── requirements.txt
+
 ├── README.md
+
 └── ...
+
 
  Model Details
 
@@ -69,15 +79,6 @@ The server will start at:
 http://127.0.0.1:8000
 
  API Endpoints:
-🩺 Health Check
-
-GET /health
-Response:
-{
-  "status": "ok",
-  "classes": ["phishing", "legitimate"]
-}
-
 📩 Predict Single Email
 POST /predict_email
 Request Body:
