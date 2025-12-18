@@ -51,11 +51,10 @@ fallback to predict() otherwise
 
 
 🔧 Installation & Setup
+
 1️⃣ Clone the repository
 git clone https://github.com/rishab-1718/Email-Phishing-Check.git
 cd Email-Phishing-Check
-
-
 
  Install dependencies
 pip install -r requirements.txt
@@ -67,25 +66,18 @@ uvicorn server.app:app --reload
 The server will start at:
 http://127.0.0.1:8000
 
-
-
-
  API Endpoints:
 🩺 Health Check
 
 GET /health
-
 Response:
-
 {
   "status": "ok",
   "classes": ["phishing", "legitimate"]
 }
 
 📩 Predict Single Email
-
 POST /predict_email
-
 Request Body:
 
 {
