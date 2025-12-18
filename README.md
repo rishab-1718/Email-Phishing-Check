@@ -99,8 +99,11 @@ Response:
 }
 
 Future Improvements:
+
 Authentication & rate limiting
+
 Model retraining pipeline
+
 Frontend integration (React / Next.js)
 
 License
