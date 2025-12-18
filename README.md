@@ -32,8 +32,7 @@ email_phishing/
 
 ├── server/
 
-│   ├── app.py
-# FastAPI application
+│   ├── app.py    # FastAPI application
 
 
 │   └── email_phishing_model.joblib  # Trained ML model
